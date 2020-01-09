@@ -25,6 +25,10 @@ allprojects {
         google()
         maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
         jcenter()
+        maven {
+            url "https://jitpack.io"
+        }
+        maven { url "https://raw.github.com/bmob/bmob-android-sdk/master" }
     }
 }
 
